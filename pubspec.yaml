@@ -1,0 +1,52 @@
+name: instagramlesson
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  image_picker: ^0.8.4+11
+  cached_network_image: ^3.2.0
+  hive: ^2.0.6
+  hive_flutter: ^1.1.0
+  firebase_auth: ^3.3.11
+  firebase_core: ^1.13.1
+  firebase_storage: ^10.2.9
+  cloud_firestore: ^3.1.10
+  firebase_messaging: ^11.2.11
+  device_info_plus: ^3.2.2
+  flutter_local_notifications: ^9.4.0
+  flutter_styled_toast: ^2.0.0
+  http: ^0.13.4
+  path_provider: ^2.0.9
+  share_plus: ^4.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+
+# To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/splash_page/
+    - assets/profile_pictures/
+
+  fonts:
+    - family: instagramFont
+      fonts:
+        - asset: assets/fonts/instagramFont.otf
